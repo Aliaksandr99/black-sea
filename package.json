@@ -1,0 +1,20 @@
+{
+  "name": "black_sea",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "node-sass scss/ -o css/",
+    "watch": "npm run compile && node-sass scss/styles.scss -wo css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://dmi3z@bitbucket.org/dmi3z/black_sea.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/dmi3z/black_sea#readme",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
